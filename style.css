@@ -81,13 +81,22 @@ body{
 .dispositivos-lista{
     display: flex;
     justify-content: center;
+    list-style-type: none;
 }
 .dispositivos{
     text-align: center;
-    list-style-type: none;
     margin: 5em 0;
 }
 .dispositivos-titulo{
     font-size: 32px;
     color: var(--branco-principal);
+}
+.rodape-lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 1em;
+}
+.lista-link a{
+    text-decoration: none;
 }
